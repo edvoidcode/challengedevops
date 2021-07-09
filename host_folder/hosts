@@ -1,0 +1,14 @@
+[control]
+192.168.56.100
+
+[webserver]
+192.168.56.101
+
+[database]
+192.168.56.102
+
+[webstack:children]
+webserver
+database
+
+
